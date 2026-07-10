@@ -14,6 +14,7 @@
         #wrapper {
             border: solid 2px #C1FF9B;
             border-radius: 10px;
+            height: auto;
             width: 967px;
             margin: auto;
             background: #FFFCF7;
@@ -30,6 +31,7 @@
         }
 
         h1 {
+            font-family: 'PlayfairDisplay';
             font-size: 44px;
             color: black;
             flex-wrap: wrap;
@@ -40,6 +42,11 @@
 
         h2 {
             color: black;
+            font-family: 'PlayfairDisplay';
+        }
+
+        p {
+            font-family: 'OpenSans';
         }
 
         nav {
@@ -77,32 +84,16 @@
         }
 
         .box {
-            width: 150px;
-            height: 100px;
+            width: 175px;
+            height: 200px;
             position: relative;
             color: black;
             border: 4px #C1FF9B solid;
         }
 
-        footer {
+        .aimg {
             display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            border: solid 2px #C1FF9B;
-            height: 30px;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #B89A57;
-        }
-
-        footer a:hover {
-            color: #F3EBDD;
-        }
-
-        footer a:visited {
-            color: #B89A57;
+            border: #C1FF9B solid 2px;
         }
 
         .images {
